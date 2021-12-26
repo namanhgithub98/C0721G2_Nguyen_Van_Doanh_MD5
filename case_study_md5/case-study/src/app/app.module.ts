@@ -8,6 +8,7 @@ import { CreateCustomerComponent } from './customer/create-customer/create-custo
 import { EditCustomerComponent } from './customer/edit-customer/edit-customer.component';
 import { DeleteCustomerComponent } from './customer/delete-customer/delete-customer.component';
 import {FormsModule} from "@angular/forms";
+import { HomeComponent } from './layout/home/home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {FormsModule} from "@angular/forms";
     ListCustomerComponent,
     CreateCustomerComponent,
     EditCustomerComponent,
-    DeleteCustomerComponent
+    DeleteCustomerComponent,
+    HomeComponent
   ],
     imports: [
         BrowserModule,
